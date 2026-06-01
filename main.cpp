@@ -1,6 +1,7 @@
 #include <iostream>
+#include <string>
+signed main() {
 
-int main() {
-
+	std::cout << "aboba";
 
 }
