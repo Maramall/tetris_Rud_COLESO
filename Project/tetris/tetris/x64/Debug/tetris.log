@@ -1,0 +1,5 @@
+﻿  GameLoop.cpp
+LINK : warning LNK4081: не хватает места на диске; компоновка выполняется не инкрементно
+TetrisModel.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl ScoreManager::ScoreManager(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0ScoreManager@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) в функции "public: __cdecl TetrisModel::TetrisModel(void)" (??0TetrisModel@@QEAA@XZ).
+TetrisModel.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __cdecl ScoreManager::~ScoreManager(void)" (??1ScoreManager@@QEAA@XZ) в функции "int `public: __cdecl TetrisModel::TetrisModel(void)'::`1'::dtor$3" (?dtor$3@?0???0TetrisModel@@QEAA@XZ@4HA).
+E:\Geany\cppLearn\rd\tetris\Project\tetris\tetris\x64\Debug\tetris.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
